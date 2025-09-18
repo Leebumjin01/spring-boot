@@ -4,9 +4,25 @@ management:
       exposure:
         include: "*"
   endpoint:
+#    shutdown:
+#      enabled: true
     health:
       show-components: always
-#      show-details: always
+#       show-details: always
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
+    env:
+      enabled: true
+
+info:
+  app:
+    name: hello-actuator
+    company: bj
+
+
 #  endpoint:
 #    shutdown:
 #      enabled: true
